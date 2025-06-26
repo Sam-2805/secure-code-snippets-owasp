@@ -15,7 +15,7 @@ To test this vulnerability, a sample SQLite database was created using the follo
 
 📄 [`setup_db.py`](scripts/setup_db.py)
 
-This sets up a local users.db database with one record: admin / admin@example.com.
+This sets up a local users.db database with some records like: admin / admin@example.com.
 
 ### ❌ Vulnerable Script:  
 📄 [`sql_injection(vuln).py`](scripts/sql_injection(vuln).py)
