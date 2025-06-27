@@ -140,3 +140,10 @@ Initial script used Linux-specific -c ping flag, which caused an error on Window
 - **HTML escaping** converts unsafe characters into harmless entities, preventing script execution in the browser (XSS).
 - Using **`subprocess.run()` without shell access**, combined with input whitelisting, blocks arbitrary system command execution.
 
+---
+
+_This branch (`day4-secure-code`) includes secure coding fixes submitted for the June 26, 2025 internship task._
+
+## 🔁 Pull Request Note
+This version was updated to allow PR comparison with `main` branch.
+
